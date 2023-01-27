@@ -1,4 +1,4 @@
 # RHEAS
-* This is a crop simulation framework used for yield prediction
+* This is RHEAS crop yield analysis project
 
 > Note
