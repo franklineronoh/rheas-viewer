@@ -8,11 +8,11 @@ from bokeh.layouts import gridplot
 from bokeh.models import LinearColorMapper, ColorBar
 
 # Read the shapefiles
-unimodal_shapefile = gpd.read_file("unimodal.shp")
-country_shapefile = gpd.read_file('tanzania.shp')
+unimodal_shapefile = gpd.read_file("shapefiles/unimodal.shp")
+country_shapefile = gpd.read_file('shapefiles/tanzania.shp')
 
 # Read and merge the csv file
-yield_data = pd.read_csv("districts_points2.csv")
+yield_data = pd.read_csv("data/districts_points2.csv")
 
 # convert yield (kg/ha) to MT/Ha
 yield_data['gwad'] = yield_data['gwad']/1000
