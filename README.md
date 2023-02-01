@@ -7,7 +7,7 @@
 ```
 git clone https://github.com/ffrono/rheas-viewer.git
 ```
-## **Create a virtual environment for you dependencies**
+## **Create a virtual environment for project dependencies**
 
 * We will name our virtual environment as **_env_**
    ```
